@@ -70,7 +70,7 @@ public class orders {
     }
 
 
-    public void removeItem(OrderItem item) {
+    public void removeItem() {
     }
 
     public int getID() {

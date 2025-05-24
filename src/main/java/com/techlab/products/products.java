@@ -1,6 +1,5 @@
 package com.techlab.products;
 
-import com.techlab.Main;
 import com.techlab.exceptions.NoStockException;
 import com.techlab.utils.utils;
 

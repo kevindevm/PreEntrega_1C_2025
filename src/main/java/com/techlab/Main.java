@@ -9,7 +9,6 @@ import java.util.ArrayList;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-import static com.techlab.products.productService.productRemove;
 
 public class Main {
     public static void main(String[] args) {
@@ -37,7 +36,7 @@ public class Main {
                     case 2 -> productService.listItems();
                     case 3 -> productService.itemSearch();
                     case 4 -> productService.productRemove();
-                    case 5 -> orderService.createOrder(items);
+                    case 5 -> orderService.createOrder();
                     case 6 -> orderService.listOrders();
                     case 7 -> System.out.println("Saliendo del sistema...");
                     default -> System.out.println("⚠ Opción inválida.");

@@ -28,11 +28,10 @@ public class orderService {
         }
     }
 
-    public static void createOrder(ArrayList<products> items) throws NoStockException {
+    public static void createOrder() throws NoStockException {
          utils.showTitle("Crear Pedido");
         Scanner scanner = new Scanner(System.in);
-        orders currentOrder = null;
-        currentOrder = new orders();
+        orders currentOrder = new orders();
         allOrders.add(currentOrder);
         System.out.println("Nuevo pedido creado con ID: " + currentOrder.getID());
 
